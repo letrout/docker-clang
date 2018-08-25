@@ -1,6 +1,6 @@
 FROM ubuntu:18.04
-MAINTAINER Joel Luth (joel.luth@gmail.com)
-LABEL Description="clang/llvm build environment"
+LABEL maintainer="Joel Luth (joel.luth@gmail.com)"
+LABEL description="clang/llvm build environment"
 
 ENV CLANG_VER 6.0
 

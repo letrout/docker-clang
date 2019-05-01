@@ -4,6 +4,7 @@ LABEL description="clang/llvm build environment"
 
 ENV CLANG_VER 8
 ENV UBUNTU_VER disco
+ENV CC clang-${CLANG_VER}
 
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends \

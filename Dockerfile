@@ -1,9 +1,9 @@
-FROM ubuntu:19.04
+FROM ubuntu:20.04
 LABEL maintainer="Joel Luth (joel.luth@gmail.com)"
 LABEL description="clang/llvm build environment"
 
-ENV CLANG_VER 8
-ENV UBUNTU_VER disco
+ENV CLANG_VER 11
+ENV UBUNTU_VER focal
 ENV CC clang-${CLANG_VER}
 
 RUN apt-get update \
